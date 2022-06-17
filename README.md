@@ -16,7 +16,7 @@ The Covid-19 Radiography database is used as the dataset to test the performance
 
 ### Sample Images 
 
-![alt text](https://github.com/Sudhandar/EfficientNet-Attention-in-a-Siamese-Network/tree/main/images/Viral Pnemonia-1.png)
+![alt text](https://github.com/Sudhandar/EfficientNet-Attention-in-a-Siamese-Network/blob/main/images/Viral%20Pneumonia-1.png)
 
 ## Model Architecture
 
