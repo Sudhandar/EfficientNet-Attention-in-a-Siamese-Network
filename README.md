@@ -14,6 +14,9 @@ The Covid-19 Radiography database is used as the dataset to test the performance
 |      Viral Pneumonia      |       1345        |
 
 
+### Sample Images 
+
+![image info](./images/Viral Pneumonia-1.png)
 
 ## Model Architecture
 
