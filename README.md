@@ -33,11 +33,9 @@ The Covid-19 Radiography database is used as the dataset to test the performance
 For evaluation, the F1 score is selected as the accuracy metric due to the imbalanced nature of the dataset. The introduction of the attention mechanism has improved the performance of the baseline EfficientNetB0 model (93.78%) and resulted in an F1 score of 94.94%. The Siamese neural network framework did not result in the improvement of the performance of the proposed model and obtained comparable results with an F1 score of 91.05%. The following two images showcase the embeddings before and after training in a Siamese neural network framework. 
 
 <p float="left" align = "middle">
-  <img src="https://github.com/Sudhandar/EfficientNet-Attention-in-a-Siamese-Network/blob/main/images/siamese_before_training.png" width="100" />
-  <img src="https://github.com/Sudhandar/EfficientNet-Attention-in-a-Siamese-Network/blob/main/images/siamese_after_training.png" width="100" /> 
+  <img src="https://github.com/Sudhandar/EfficientNet-Attention-in-a-Siamese-Network/blob/main/images/siamese_before_training.png" width="400" />
+  <img src="https://github.com/Sudhandar/EfficientNet-Attention-in-a-Siamese-Network/blob/main/images/siamese_after_training.png" width="400" /> 
 </p>
-
-![alt text](https://github.com/Sudhandar/EfficientNet-Attention-in-a-Siamese-Network/blob/main/images/siamese_before_training.png) ![alt text](https://github.com/Sudhandar/EfficientNet-Attention-in-a-Siamese-Network/blob/main/images/siamese_after_training.png)
 
 
 Before training, the embeddings are randomly scattered and overlap each other. They are not grouped based on their similarities. After training, the embeddings are clustered based on their similarities and samples belonging to the same class are grouped after training. There are still a few overlaps among the classes and the model is not able to completely separate them into clusters.
